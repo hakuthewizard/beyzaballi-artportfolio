@@ -1,0 +1,48 @@
+/* Remove duplicated .navbar rule */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.leftItems {
+    display: flex;
+    gap: 16px;
+    align-items: center; /* Align vertically */
+}
+
+.rightItems {
+    display: flex;
+    gap: 16px;
+    align-items: center; /* Align vertically */
+}
+
+.devPortfolio {
+    display: flex;
+    align-items: center; /* Align vertically */
+}
+
+
+.devPortfolio {
+    all: unset;
+    display: inline-block; 
+    text-decoration: none;
+    justify-content: center;
+}
+
+.devPortfolio button {
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: #ffb9db;
+    color: white;
+    cursor: pointer;
+}
+
+.devPortfolio:hover button {
+    background-color: #ff007b;
+    border: 2px solid;
+}

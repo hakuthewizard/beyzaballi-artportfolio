@@ -1,0 +1,32 @@
+.modalBackdrop {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .modalContent {
+    background-color: #000000;
+    color: #fff;
+    height:100%;
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .modalContent img {
+    object-fit:cover;
+    width:75%;
+  }
+  .modalContainer {
+    width:75%;
+    padding-right: 1rem;
+  }
+  
